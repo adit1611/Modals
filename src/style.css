@@ -1,0 +1,99 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 20px;
+
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  position: absolute;
+  bottom: 20px; /* Move the buttons below the slider */
+  top: auto;     /* Remove the default top positioning */
+  width: 4px;
+  size: 4px;
+  height: 2px;
+  background-color: #000;
+}
+
+.mySwiper .swiper-button-next::after,
+.mySwiper .swiper-button-prev::after {
+  content: none; /* This removes the default icons */
+}
+
+.mySwiper .swiper-button-next {
+  right: 32%;
+  background-color: #000;
+  background-image: url('https://img.icons8.com/?size=100&id=26191&format=png&color=000000'); 
+  color: #000;
+  height: 1px;
+
+}
+
+
+.mySwiper .swiper-button-prev {
+    left: 30%;
+    bottom: 5px;
+    background-color: transparent;
+    background-image: url('https://img.icons8.com/?size=100&id=26191&format=png&color=8a93e5'); /* Your custom icon */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;  /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+    border: none; /* Remove borders */
+    color: transparent; /* Ensure no default text is visible */
+  }
+
+
+  .mySwiper .swiper-button-next {
+    right: 30%;
+    bottom: 5px;
+    background-color: transparent;
+    background-image:  url('https://img.icons8.com/?size=100&id=26196&format=png&color=8a93e5');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;  /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+    border: none; /* Remove borders */
+    color: transparent; /* Ensure no default text is visible */
+  }
+  
